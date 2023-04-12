@@ -1,0 +1,1 @@
+cmd_/home/chaihu/app_autofly_computing/src/built-in.o :=  arm-none-eabi-gcc --specs=nosys.specs --specs=nano.specs -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -nostdlib   -r -o /home/chaihu/app_autofly_computing/src/built-in.o /home/chaihu/app_autofly_computing/src/communicate.o /home/chaihu/app_autofly_computing/src/main_ec.o
